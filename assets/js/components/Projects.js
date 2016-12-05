@@ -5,7 +5,7 @@ var Projectpost = require('./Projectpost.js');
 var Projects = React.createClass({
     componentDidMount: function(){
         $.ajax({
-            url: 'http://localhost:8000/api/projects/list/',
+            url: 'https://localhost:8000/api/projects/list/',
             datatype: 'json',
             cache: 'false',
             success: function(data){

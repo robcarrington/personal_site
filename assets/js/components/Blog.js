@@ -5,7 +5,7 @@ var Blogpost = require('./Blogpost.js');
 var Blog = React.createClass({
     componentDidMount: function(){
         $.ajax({
-            url: 'http://localhost:8000/api/blog/list/',
+            url: 'https://localhost:8000/api/blog/list/',
             datatype: 'json',
             cache: 'false',
             success: function(data){
