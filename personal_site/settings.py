@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'robcarrington.herokuapp.com', 'robcarrington.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'robcarrington.herokuapp.com', 'www.robcarrington.com']
 
 SECRET_KEY = os.environ['SECRET_KEY']
 
