@@ -26,7 +26,7 @@ SECRET_KEY = '24lm%p7(1)2$m)sco6fnrwo5zqfl9wm58jrk@(w3y$g=ho)!ii'
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'robcarrington.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'robcarrington.herokuapp.com', 'robcarrington.com']
 
 
 # Application definition
