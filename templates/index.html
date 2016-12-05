@@ -1,0 +1,36 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rob Carrington</title>
+        <style>
+           body, a {
+                font-family: 'Roboto', sans-serif;
+                color: #515151 !important;
+                font-weight: 300;
+            }
+            h3, h4, h5 {
+                font-family: 'Open Sans', sans-serif; 
+            }
+            .card{
+                margin: 0 0 22px 0!important;
+            }
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    </head>
+    <body style="background-color: #FDFDFD">
+        <div id="container"></div>
+        {% render_bundle 'main' %}
+   <script>
+        $(".button-collapse").sideNav({
+            closeOnClick: true 
+            });
+    </script>
+    </body>
+</html>
