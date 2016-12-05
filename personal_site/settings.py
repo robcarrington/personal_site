@@ -19,11 +19,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '24lm%p7(1)2$m)sco6fnrwo5zqfl9wm58jrk@(w3y$g=ho)!ii'
-
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
 DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'robcarrington.herokuapp.com', 'robcarrington.com']
@@ -139,3 +135,6 @@ WEBPACK_LOADER = {
         'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
         }
     }
+
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config()
