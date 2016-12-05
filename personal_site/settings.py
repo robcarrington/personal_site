@@ -24,6 +24,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'robcarrington.herokuapp.com', 'robcarrington.com']
 
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # Application definition
 
