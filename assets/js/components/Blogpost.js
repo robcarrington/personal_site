@@ -4,8 +4,8 @@ var Link = require('react-router').Link;
 
 var Blogpost = React.createClass({
     render: function() {
-        var cardStyle = { width: 350, height: 300, lineHeight: 1.5, 
-                          backgroundColor: this.props.color }
+        var cardStyle = { maxWidth: 350, maxHeight: 300, lineHeight: 1.5, 
+                          backgroundColor: this.props.color, marginRight: 18 }
         return (
             <div className="col m12 l6">
                 <Link to={'blog/'+this.props.id}>
