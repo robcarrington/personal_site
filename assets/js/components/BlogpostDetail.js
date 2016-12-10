@@ -18,14 +18,16 @@ var BlogpostDetail = React.createClass({
     },
     getInitialState: function(){ return {data: []}; },
     render: function() {
-        var cardStyle = { minWidth: 400 }
+        var cardStyle = { minWidth: 400, maxWidth: 800 }
+        var titleStyle = {fontSize: 30, fontWeight: 200}
+        var subtitleStyle = { fontSize: 18, fontWeight: 400 }
+        var bodyStyle = { whiteSpace: "pre-wrap" }
         return (
-                <div className="col s12 m10">
-                    <div style={ cardStyle } >
-                        <span style={{fontSize: 30, fontWeight: 200}}>{this.state.data.title}</span>
-                        <p style={{fontSize: 18, fontWeight: 400}}>{this.state.data.subtitle}</p>
-                        <br />
-                        <p style={{whiteSpace: "pre-wrap"}}>{this.state.data.body}</p>
+                <div className="col s12" style={{marginTop: -8}}>
+                    <div style={cardStyle} >
+                        <span style={titleStyle}>{this.state.data.title}</span>
+                        <p style={subtitleStyle}>{this.state.data.subtitle}</p>
+                        <p style={bodyStyle}>{this.state.data.body}</p>
                         <br />
                     </div>
                 </div>
