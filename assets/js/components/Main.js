@@ -15,7 +15,7 @@ var Main = React.createClass({
                     <div className="col l3 hide-on-med-and-down">
                         <Sidebar />
                     </div>
-                    <div className="col m12 l9">
+                    <div className="col m12 l9 right">
                         <div style={style} className="hide-on-med-and-down"/>
                         <div className="row hide-on-med-and-up">
                         <div>&nbsp;</div>
