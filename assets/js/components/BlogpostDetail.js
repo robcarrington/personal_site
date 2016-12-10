@@ -23,7 +23,7 @@ var BlogpostDetail = React.createClass({
         var subtitleStyle = { fontSize: 18, fontWeight: 400 }
         var bodyStyle = { whiteSpace: "pre-wrap" }
         return (
-                <div className="col s12" style={{marginTop: -8}}>
+                <div className="col s12" style={{marginTop: -4}}>
                     <div style={cardStyle} >
                         <span style={titleStyle}>{this.state.data.title}</span>
                         <p style={subtitleStyle}>{this.state.data.subtitle}</p>
