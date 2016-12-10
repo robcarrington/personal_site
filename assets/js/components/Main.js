@@ -19,10 +19,10 @@ var Main = React.createClass({
                         <div style={style} className="hide-on-med-and-down"/>
                         <div className="row hide-on-med-and-up">
                         <div>&nbsp;</div>
-                        <a href="#" style={{margin: 9}} data-activates="mobile-menu" className="button-collapse">
+                        <a className="button-collapse right" href="#" style={{margin: 9}} data-activates="mobile-menu">
                             <i style={{ fontSize: 35 }} className="material-icons">menu</i>
                         </a>
-                        <ul className="side-nav right" id="mobile-menu">
+                        <ul className="side-nav" id="mobile-menu">
                             <div>&nbsp;</div>
                             <li><Link style={routeStyle} to='/about' >About</Link></li>
                             <li><Link style={routeStyle} to='/blog' >Blog</Link></li>
