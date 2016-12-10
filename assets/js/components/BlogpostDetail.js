@@ -18,9 +18,10 @@ var BlogpostDetail = React.createClass({
     },
     getInitialState: function(){ return {data: []}; },
     render: function() {
+        var cardStyle = { width: 300, height: 300 }
         return (
                 <div className="col s12 m10">
-                    <div style={{minHeight: 400}} >
+                    <div style={ cardStyle } >
                         <span style={{fontSize: 30, fontWeight: 200}}>{this.state.data.title}</span>
                         <p style={{fontSize: 18, fontWeight: 400}}>{this.state.data.subtitle}</p>
                         <br />
