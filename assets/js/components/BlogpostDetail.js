@@ -18,7 +18,7 @@ var BlogpostDetail = React.createClass({
     },
     getInitialState: function(){ return {data: []}; },
     render: function() {
-        var cardStyle = { width: 300, height: 300 }
+        var cardStyle = { minWidth: 400 }
         return (
                 <div className="col s12 m10">
                     <div style={ cardStyle } >
