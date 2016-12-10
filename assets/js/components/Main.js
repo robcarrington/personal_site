@@ -8,7 +8,7 @@ var Main = React.createClass({
     render: function() {
             var style = { height: 145 }
             var imgStyle = { marginTop: 10, marginLeft: 3, height: 20 }
-            var linkStyle = { marginLeft: 7 }
+            var linkStyle = { marginLeft: 7, fontSize: 18 }
             return (
                 <div className="row">
                     <div className="col l3 hide-on-med-and-down">
