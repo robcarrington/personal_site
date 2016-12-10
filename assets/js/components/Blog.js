@@ -15,7 +15,6 @@ var Blog = React.createClass({
     },
     getInitialState: function() { return {data: []}; },
     render: function() {
-        var style = { margin: 25, marginRight: 55 }
         return (
             <div className="row" style={{maxWidth: 900}} >
                 {this.state.data.map(function(blogpost){
