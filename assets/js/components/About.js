@@ -5,7 +5,7 @@ var About = React.createClass({
     render: function() {
         var linkStyle = { borderBottom: '1px dotted #000' }
         var textStyle = { fontSize: 18, maxWidth: 400, minWidth: 300 }
-        var imgStyle = { maxWidth: 300, maxHeight: 300 }
+        var imgStyle = { maxWidth: 340, maxHeight: 340 }
         return (
             <div className="row">
                 <div className="col s12 m12 l6" style={textStyle}>

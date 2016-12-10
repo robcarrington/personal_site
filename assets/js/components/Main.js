@@ -15,14 +15,14 @@ var Main = React.createClass({
                     <div className="col l3 hide-on-med-and-down">
                         <Sidebar />
                     </div>
-                    <div className="col m12 l9 right">
+                    <div className="col m12 l9">
                         <div style={style} className="hide-on-med-and-down"/>
                         <div className="row hide-on-med-and-up">
                         <div>&nbsp;</div>
                         <a href="#" style={{margin: 9}} data-activates="mobile-menu" className="button-collapse">
                             <i style={{ fontSize: 35 }} className="material-icons">menu</i>
                         </a>
-                        <ul className="side-nav" id="mobile-menu">
+                        <ul className="side-nav right" id="mobile-menu">
                             <div>&nbsp;</div>
                             <li><Link style={routeStyle} to='/about' >About</Link></li>
                             <li><Link style={routeStyle} to='/blog' >Blog</Link></li>
