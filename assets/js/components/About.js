@@ -4,8 +4,8 @@ var ReactDOM = require('react-dom');
 var About = React.createClass({
     render: function() {
         var linkStyle = { borderBottom: '1px dotted #000' }
-        var textStyle = { fontSize: 16, maxWidth: 400, minWidth: 300 }
-        var imgStyle = { maxWidth: 350, maxHeight: 350 }
+        var textStyle = { fontSize: 18, maxWidth: 400, minWidth: 300 }
+        var imgStyle = { maxWidth: 300, maxHeight: 300 }
         return (
             <div className="row left">
                 <div className="col s12 m12 l6" style={textStyle}>
@@ -18,7 +18,7 @@ var About = React.createClass({
                     comic strips <br/>
                     stoic philosophy <br/><br/>
                 </div>
-                <div className="col s12 m12 l6">
+                <div style={{marginRight: 18}} className="col s12 m12 l6">
                     <div className="card" style={imgStyle}>
                          <img style={imgStyle} src="/static/images/backyard.jpg" />
                     </div>
