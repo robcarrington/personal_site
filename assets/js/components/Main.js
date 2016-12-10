@@ -11,10 +11,10 @@ var Main = React.createClass({
             var linkStyle = { marginLeft: 7 }
             return (
                 <div className="row">
-                    <div className="col m3 hide-on-small-only">
+                    <div className="col l3 hide-on-med-and-down">
                         <Sidebar />
                     </div>
-                    <div className="col m9 s12">
+                    <div className="col m12 l9">
                         <div style={style} className="hide-on-small-only"/>
                         <div className="row hide-on-large-only">
                         <div>&nbsp;</div>

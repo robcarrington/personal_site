@@ -7,7 +7,7 @@ var Blogpost = React.createClass({
         var cardStyle = { width: 350, height: 300, lineHeight: 1.5, 
                           backgroundColor: this.props.color }
         return (
-            <div className="col s12 m6">
+            <div className="col m12 l6">
                 <Link to={'blog/'+this.props.id}>
                 <div className="card small" style={ cardStyle }>
                     <div className="card-content white-text" style={{padding: 35}}>
