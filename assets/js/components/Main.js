@@ -8,7 +8,8 @@ var Main = React.createClass({
     render: function() {
             var style = { height: 145 }
             var imgStyle = { marginTop: 10, marginLeft: 3, height: 20 }
-            var linkStyle = { marginLeft: 7, fontSize: 18 }
+            var routeStyle = { marginLeft: 7, fontSize: 18 }
+            var linkStyle = { fontSize: 18 }
             return (
                 <div className="row">
                     <div className="col l3 hide-on-med-and-down">
@@ -23,9 +24,9 @@ var Main = React.createClass({
                         </a>
                         <ul className="side-nav" id="mobile-menu">
                             <div>&nbsp;</div>
-                            <li><Link style={linkStyle} to='/about' >About</Link></li>
-                            <li><Link style={linkStyle} to='/blog' >Blog</Link></li>
-                            <li><Link style={linkStyle} to='/projects' >Projects</Link></li>
+                            <li><Link style={routeStyle} to='/about' >About</Link></li>
+                            <li><Link style={routeStyle} to='/blog' >Blog</Link></li>
+                            <li><Link style={routeStyle} to='/projects' >Projects</Link></li>
                             <div>&nbsp;</div>
                             <a href='http://www.github.com/robcarrington'>&nbsp;
                                 <img src='/static/images/github.png' style={imgStyle}/> GitHub
