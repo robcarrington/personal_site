@@ -4,7 +4,7 @@ var ReactDOM = require('react-dom');
 var About = React.createClass({
     render: function() {
         var linkStyle = { borderBottom: '1px dotted #000' }
-        var textStyle = { fontSize: 18, maxWidth: 400, minWidth: 300 }
+        var textStyle = { fontSize: 18, marginRight: 18, maxWidth: 400, minWidth: 300 }
         var imgStyle = { maxWidth: 340, maxHeight: 340 }
         return (
             <div className="row">
