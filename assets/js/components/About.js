@@ -7,7 +7,7 @@ var About = React.createClass({
         var textStyle = { fontSize: 18, maxWidth: 400, minWidth: 300 }
         var imgStyle = { maxWidth: 300, maxHeight: 300 }
         return (
-            <div className="row left">
+            <div className="row">
                 <div className="col s12 m12 l6" style={textStyle}>
                     <span style={{fontWeight: 500}}>Hi, I'm Rob.</span> I like crunching data and building web apps with Python. I live in Austin, TX and do that flavor of work at <a style={linkStyle} href="http://www.q2ebanking.com">Q2&nbsp;eBanking</a>. On the side I hack on iOS and React.js projects.
                     <br/><br/>
