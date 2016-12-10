@@ -16,7 +16,7 @@ var Blog = React.createClass({
     getInitialState: function() { return {data: []}; },
     render: function() {
         return (
-            <div className="row" style={{maxWidth: 950}} >
+            <div className="row" style={{maxWidth: 900}} >
                 {this.state.data.map(function(blogpost){
                     return <Blogpost 
                     key={blogpost['id']} 
