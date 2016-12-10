@@ -21,7 +21,7 @@ var BlogpostDetail = React.createClass({
         var cardStyle = { minWidth: 400, maxWidth: 800 }
         var titleStyle = {fontSize: 30, fontWeight: 200}
         var subtitleStyle = { fontSize: 18, fontWeight: 400 }
-        var bodyStyle = { whiteSpace: "pre-wrap" }
+        var bodyStyle = { marginTop: 50, whiteSpace: "pre-wrap" }
         return (
                 <div className="col s12" style={{marginTop: -4}}>
                     <div style={cardStyle} >
