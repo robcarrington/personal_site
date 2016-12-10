@@ -12,7 +12,7 @@ var Projectpost = React.createClass({
                                 <img src={this.props.img_url} />
                             </div>
                             <div className="card-content">
-                                <p>{this.props.body}</p>
+                                <p style={{fontSize: 16}}>{this.props.body}</p>
                             </div>
                         </div>
                     </a>
