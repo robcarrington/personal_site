@@ -15,8 +15,8 @@ var Main = React.createClass({
                         <Sidebar />
                     </div>
                     <div className="col m12 l9">
-                        <div style={style} className="hide-on-small-only"/>
-                        <div className="row hide-on-large-only">
+                        <div style={style} className="hide-on-med-and-down"/>
+                        <div className="row hide-on-med-and-up">
                         <div>&nbsp;</div>
                         <a href="#" style={{margin: 9}} data-activates="mobile-menu" className="button-collapse">
                             <i className="material-icons">menu</i>
