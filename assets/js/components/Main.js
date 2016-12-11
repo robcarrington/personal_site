@@ -35,7 +35,7 @@ var Main = React.createClass({
                                 <img src='/static/images/linkedin.png' style={imgStyle}/> LinkedIn
                             </a>
                             <a style={{margin: 5, fontSize: 18}} href='https://www.dropbox.com/s/1sx23hcc0ox3ffx/rob_carrington_resume.pdf?dl=0'>
-                                <img src='/static/images/cv.png' style={{margin: "10px 3px", height: 20}} /> Resume
+                                <img src='/static/images/cv.png' style={{margin: "10px 3px 0 3px", height: 20}} /> Resume
                             </a>
                         </ul>
                     </div>
