@@ -18,7 +18,7 @@ var BlogpostDetail = React.createClass({
     },
     getInitialState: function(){ return {data: []}; },
     render: function() {
-        var cardStyle = { minWidth: 400, maxWidth: 800 }
+        var cardStyle = { minWidth: 300, maxWidth: 800 }
         var titleStyle = {fontSize: 30, fontWeight: 200}
         var subtitleStyle = { fontSize: 18, fontWeight: 400 }
         var bodyStyle = { fontSize: 16, marginTop: 50, whiteSpace: "pre-wrap" }
