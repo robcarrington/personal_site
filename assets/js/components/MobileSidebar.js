@@ -12,8 +12,8 @@ var MobileSidebar = React.createClass({
         return (
             <div>
                 <div>&nbsp;</div>
-                <a href="#" style={{margin: 9}} data-activates="mobile-menu" className="button-collapse">
-                    <i className="material-icons">menu</i>
+                <a href="#" style={{margin: 9}} data-activates="mobile-menu" className="button-collapse right">
+                    <i style={{ fontSize: 35 }} className="material-icons">menu</i>
                 </a>
                 <ul className="side-nav right" id="mobile-menu">
                     <div>&nbsp;</div>
