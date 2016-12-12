@@ -4,9 +4,11 @@ var Link = require('react-router').Link;
 
 var MobileSidebar = React.createClass({
     render: function() {
-        var style = { height: 140 }
-        var imgStyle = { marginTop: 10, marginLeft: 3, height: 20 }
-        var linkStyle = { marginLeft: 7 }
+       var style = { height: 145 }
+       var imgStyle = { marginTop: 10, marginLeft: 3, height: 20 }
+       var routeStyle = { marginLeft: 7, fontSize: 18 }
+       var linkStyle = { fontSize: 18 }
+
         return (
             <div>
                 <div>&nbsp;</div>
