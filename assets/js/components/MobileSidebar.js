@@ -5,12 +5,8 @@ var Link = require('react-router').Link;
 var MobileSidebar = React.createClass({
     render: function() {
         var style = { height: 140 }
-        var sideStyle = { marginTop: 150, paddingRight:15, borderStyle: 'solid', borderWidth: '0 1px 0 0', 
-                          borderColor: '#e9e9e9' }
-        var nameStyle = { fontSize: 20, textTransform: 'uppercase', color: 'white', 
-                          backgroundColor: '#FF5B68', padding: 20, display: 'none', fontWeight: 100 }
-        var linkStyle = { marginBottom: -5, fontSize: 13, fontWeight: 300, textTransform: 'uppercase', display: 'block' }
         var imgStyle = { marginTop: 10, marginLeft: 3, height: 20 }
+        var linkStyle = { marginLeft: 7 }
         return (
             <div>
                 <div>&nbsp;</div>
