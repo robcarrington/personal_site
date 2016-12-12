@@ -5,7 +5,7 @@ var Projectpost = React.createClass({
     render: function() {
         return (
             <div className="row">
-                <div className="col s12 m12 l12" style={{ maxWidth: 500 }}>
+                <div className="col s12 m12 l12" style={{ maxWidth: 750 }}>
                     <a href={this.props.link_url}>
                         <div className="card">
                             <div className="card-image">
