@@ -27,7 +27,7 @@ var BlogpostDetail = React.createClass({
                     <div style={cardStyle} >
                         <span style={titleStyle}>{this.state.data.title}</span>
                         <p style={subtitleStyle}>{this.state.data.subtitle}</p>
-                        <p style={bodyStyle}>{this.state.data.body}</p>
+                        <div style={bodyStyle}>{this.state.data.body}</div>
                         <br />
                     </div>
                 </div>
