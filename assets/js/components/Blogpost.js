@@ -16,7 +16,7 @@ var Blogpost = React.createClass({
                         </span>
                         <div>&nbsp;</div>
                         <div>&nbsp;</div>
-                        <p style={{fontSize: 20}}>{this.props.subtitle}</p>
+                        <div style={{fontSize: 20}}>{this.props.subtitle}</div>
                    </div>
                 </div>
                 </Link>
