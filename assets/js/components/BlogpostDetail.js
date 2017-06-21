@@ -28,8 +28,8 @@ var BlogpostDetail = React.createClass({
                         <span style={titleStyle}>{this.state.data.title}</span>
                         <p style={subtitleStyle}>{this.state.data.subtitle}</p>
                         <div style={bodyStyle}>{this.state.data.body}</div>
-                        <a href={this.state.data.link_url}>{this.state.data.link_text}</a>
                         <br />
+                        <a style={subtitleStyle} href={this.state.data.link_url}>{this.state.data.link_text}</a>
                     </div>
                 </div>
             )
