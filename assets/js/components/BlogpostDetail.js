@@ -5,10 +5,10 @@ var Link = require('react-router').Link;
 
 var BlogpostDetail = React.createClass({
     componentDidMount: function(){
-        url_array = window.location.href.split('/')
-        post_id = url_array[url_array.length-1]
+        urlArray = window.location.href.split('/')
+        postId = urlArray[urlArray.length-1]
         $.ajax({
-            url: '../api/blog/post/'+post_id,
+            url: '../api/blog/post/'+postId,
             datatype: 'json',
             cache: 'false',
             success: function(data){
@@ -28,6 +28,7 @@ var BlogpostDetail = React.createClass({
                         <span style={titleStyle}>{this.state.data.title}</span>
                         <p style={subtitleStyle}>{this.state.data.subtitle}</p>
                         <div style={bodyStyle}>{this.state.data.body}</div>
+                        <a href={this.state.data.link_url}>{this.state.data.link_text}</a>
                         <br />
                     </div>
                 </div>
