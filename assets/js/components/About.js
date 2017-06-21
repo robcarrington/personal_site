@@ -9,7 +9,7 @@ var About = React.createClass({
         return (
             <div className="row">
                 <div className="col s12 m6 l6" style={textStyle}>
-                    <span style={{fontWeight: 500}}>Hi, I'm Rob.</span> I like crunching data and building web apps with Python. I live in Austin, TX and do that flavor of work at <a style={linkStyle} href="http://www.q2ebanking.com">Q2&nbsp;eBanking</a>. On the side I hack on iOS and React.js projects.
+                    <span style={{fontWeight: 500}}>Hi, I'm Rob.</span> I like crunching data and building web apps with Python. I live in Austin, TX and do that flavor of work at <a style={linkStyle} href="http://www.q2ebanking.com">Q2&nbsp;eBanking</a>. On the side I fiddle with iOS, React.js, and Elm projects.
                     <br/><br/>
                     <span style={{fontWeight: 500}}>Also excited about:</span><br/>
                     education technology <br/>
