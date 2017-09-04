@@ -8,7 +8,7 @@ var Blogpost = React.createClass({
                           backgroundColor: this.props.color, marginRight: 18 }
         return (
             <div className="col s12 m12 l6">
-                <Link to={'/blog/'+this.props.url}>
+                <Link to={'/blog/'+this.props.id}>
                 <div className="card small" style={ cardStyle }>
                     <div className="card-content white-text" style={{padding: 35}}>
                         <span className="card-title" style={{fontSize: 26, fontWeight: 200}}>
