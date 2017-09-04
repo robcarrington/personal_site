@@ -1,7 +1,7 @@
 from django.db import models
 
 class BlogPost(models.Model):
-    url = models.URLField(primary_key=True)
+    url = models.CharField(primary_key=True, max_length=100)
     created = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=100)
     subtitle = models.CharField(max_length=100)
