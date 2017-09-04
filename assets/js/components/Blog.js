@@ -19,8 +19,8 @@ var Blog = React.createClass({
             <div className="row left" style={{maxWidth: 750}} >
                 {this.state.data.map(function(blogpost){
                     return <Blogpost 
-                    key={blogpost['id']} 
-                    id={blogpost['id']}
+                    key={blogpost['url']} 
+                    id={blogpost['url']}
                     title={blogpost['title']}
                     subtitle={blogpost['subtitle']} 
                     color={blogpost['color']}/>;
