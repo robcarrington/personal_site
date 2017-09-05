@@ -17,7 +17,7 @@ var Routes = (
             <IndexRoute component={Blog} />
             <Route path='about' component={About} />
             <Route path='blog' component={Blog} />
-            <Route path='blog/:id' component={BlogpostDetail} />
+            <Route path='blog/:url' component={BlogpostDetail} />
             <Route path='projects' component={Projects} />
           </Route>
         </Router>
