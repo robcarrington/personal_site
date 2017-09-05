@@ -21,5 +21,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/blog/', include('blog.urls')),
     url(r'^api/projects/', include('projects.urls')),
-    url(r'^[a-zA-Z0-9\/]*$', TemplateView.as_view(template_name='index.html')),
+    url(r'^[a-zA-Z0-9\/-]*$', TemplateView.as_view(template_name='index.html')),
 ]
