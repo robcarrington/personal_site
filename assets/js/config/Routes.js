@@ -14,7 +14,7 @@ var Projects = require('../components/Projects');
 var Routes = (
         <Router history={browserHistory}>
           <Route path='/' component={Main}>
-            <IndexRoute component={Blog} />
+            <IndexRoute component={About} />
             <Route path='about' component={About} />
             <Route path='blog' component={Blog} />
             <Route path='blog/:url' component={BlogpostDetail} />
